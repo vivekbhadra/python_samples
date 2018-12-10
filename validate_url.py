@@ -3,6 +3,7 @@
 #
 import sys
 
+domain_names=["com", "org", "net"]
 url=sys.argv[1]
 print url
 header=url[0:7]
@@ -13,7 +14,7 @@ if header == "http://":
     l=link_main.split(".")
     if len(l) == 3:
         if(l[0] == "www"):
-            if(l[2] == "com"):
+            if l[2] in domain_names:
                 print "Valid URL"
             else:
                 print "Invalid URL"
