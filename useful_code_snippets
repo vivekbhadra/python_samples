@@ -15,3 +15,10 @@ for name, surname in mydict.items():
         break
 if flag:
     print('The person wins the award is {1}, {0}'.format(name, surname))
+
+# 
+# *** List Comprehension ***
+# 
+mylist = [x * x for x in range(0, 10, 2)]
+mylist
+Out[29]: [0, 4, 16, 36, 64]
