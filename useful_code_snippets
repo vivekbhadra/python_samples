@@ -22,3 +22,17 @@ if flag:
 mylist = [x * x for x in range(0, 10, 2)]
 mylist
 Out[29]: [0, 4, 16, 36, 64]
+
+# 
+# *** More Examples of List comprehension ***
+#
+celcius = [10, 20, 30, 40, 50, 60]
+fahrenheit = [((9/5) * temp + 32) for temp in celcius]
+fahrenheit
+Out[32]: [50.0, 68.0, 86.0, 104.0, 122.0, 140.0]
+
+# Example 
+mynum = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+musqrtnum = [ x * x for x in mynum]
+musqrtnum
+Out[35]: [100, 400, 900, 1600, 2500, 3600, 4900, 6400, 8100, 10000]
