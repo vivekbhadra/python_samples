@@ -1,0 +1,17 @@
+# 
+# Iterating over a dictionary using a for loop
+#
+# *** Tuple unpacking ***
+# 
+# Lesson https://www.udemy.com/share/101W8QBkcecF5bRQ==/
+# Section 5: 
+# 35. For Loops in Python
+
+mydict = {'Vivek': 'Bhadra', 'Sarbani': 'Bhadra', 'Vihaan': 'Bhadra', 'Vivaan': 'Bhadra'}
+for name, surname in mydict.items():
+    if name == 'Vivek' and surname == 'Bhadra':
+        print('found the man')
+        flag = True
+        break
+if flag:
+    print('The person wins the award is {1}, {0}'.format(name, surname))
