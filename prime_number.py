@@ -5,7 +5,7 @@ This is a temporary script file.
 """
 
 def check_prime(num):
-    if not isinstance(num,int):
+    if not isinstance(num,int): ## isinstance() function checks if an instance is of the type
         return -1
     else: 
         for div in range(2, num//2 + 1):
