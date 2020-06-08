@@ -15,7 +15,7 @@ def upper_lower_count(mystr):
     print("Upper count = {} lower count = {}".format(uCount, lCount))
     
 def main():
-    upper_lower_count("AnandA")
+    upper_lower_count("Hello Mr. Rogers, how are you this fine Tuesday?")
 
 if __name__ == '__main__':
     main()
